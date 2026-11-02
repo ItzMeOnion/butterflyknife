@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "balisong_spin",
+  "version": "${version}",
+  "name": "Balisong Spin",
+  "description": "A butterfly knife item with a client-side spinning animation.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.chatgpt.balisong.BalisongSpin"],
+    "client": ["dev.chatgpt.balisong.BalisongSpinClient"]
+  },
+  "mixins": ["balisong_spin.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
